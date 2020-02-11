@@ -1,12 +1,15 @@
 {
-  "name": "example-react-base-table",
+  "name": "react-table-example-pokemon",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.2.1",
+    "emotion": "^10.0.27",
+    "emotion-theming": "^10.0.27",
     "react": "^16.12.0",
+    "react-base-table": "^1.9.1",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1"
   },
