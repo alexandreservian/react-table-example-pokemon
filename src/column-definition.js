@@ -2,7 +2,9 @@ export default [
   {
     dataKey: 'id',
     title: 'Código',
-    width: 70
+    width: 100,
+    sortable: true,
+    align: 'center'
   },
   {
     dataKey: 'thumbnail',
@@ -21,31 +23,37 @@ export default [
   {
     dataKey: 'hp',
     title: 'HP',
-    width: 60
+    width: 60,
+    sortable: true
   },
   {
     dataKey: 'attack',
     title: 'Ataque',
-    width: 100
+    width: 100,
+    sortable: true
   },
   {
     dataKey: 'defense',
     title: 'Defesa',
-    width: 100
+    width: 100,
+    sortable: true
   },
   {
     dataKey: 'spAttack',
     title: 'Ataque Especial',
-    width: 150
+    width: 150,
+    sortable: true
   },
   {
     dataKey: 'spDefense',
     title: 'Defesa Especial',
-    width: 150
+    width: 150,
+    sortable: true
   },
   {
     dataKey: 'speed',
     title: 'Velocidade',
-    width: 100
+    width: 120,
+    sortable: true
   }
 ]

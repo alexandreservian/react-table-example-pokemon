@@ -44,13 +44,14 @@ export const Content = styled.div`
 
   .BaseTable__row {
     border-bottom: none;
+    transition: 0.3s;
 
     &:nth-of-type(even) {
-      background: #e5f9f5;
+      background: #f5f5f5;
     }
 
     &:hover {
-      background: #2578d7;
+      background: #929191;
       .BaseTable__row-cell-text {
         color: #fff;
       }
@@ -58,7 +59,7 @@ export const Content = styled.div`
   }
 
   .BaseTable__row.active {
-    background: afafaf;
+    background: #afafaf;
   }
 
   .BaseTable__header-cell--sortable {
